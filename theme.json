@@ -47,6 +47,21 @@
                 "typography": {
                     "fontFamilies": [
                         {
+                            "fontFamily": "Play, sans-serif",
+                            "slug": "hemauto-headings-play",
+                            "name": "HEM Auto Play"
+                        },
+                        {
+                            "fontFamily": "Urbanist, sans-serif",
+                            "slug": "hemauto-body-urbanist",
+                            "name": "HEM Auto Urbanist"
+                        },
+                        {
+                            "fontFamily": "Road Rage, sans-serif",
+                            "slug": "hemauto-aside-road-rage",
+                            "name": "HEM Auto Road Rage"
+                        },
+                        {
                             "fontFamily": "Tilt Warp, sans-serif",
                             "slug": "hemauto-title-tilt-warp",
                             "name": "HEM Auto Tilt Warp"
@@ -83,6 +98,11 @@
                     "fontFamily": "Road Rage, sans-serif",
                     "slug": "hemauto-aside-road-rage",
                     "name": "HEM Auto Road Rage"
+                },
+                {
+                    "fontFamily": "Tilt Warp, sans-serif",
+                    "slug": "hemauto-title-tilt-warp",
+                    "name": "HEM Auto Tilt Warp"
                 }
             ],
             "fontSizes": [
