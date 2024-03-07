@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+h2,
 ul,
 li,
 p,
 span,
 section,
 div{
-    border-width: 4px;
+    border-width: 2px;
+    border-color:darkgreen;
+
 }
