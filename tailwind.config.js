@@ -37,7 +37,7 @@ module.exports = {
       'hemautoFontPlay': 'Play',
       'hemautoFontUrbanist': 'Urbanist',
       'hemautoFontRoadRage': '"Road Rage"',
-      'hemautoFontTiltWarp': '"Tilt Wrap"',
+      'hemautoFontTiltWarp': '"Tilt Warp"',
     },
     extend: {},
   },
