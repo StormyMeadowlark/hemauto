@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./assets/*{html,js}', './parts/*.{html,js}', './templates/*.{html,js}', './*.{html,js}' ],
+  content: ['./assets/*.{html,js}', './parts/*.{html,js}', './templates/*.{html,js}', './*.{html,js}'],
   theme: {
     screens: {
       'dxl': '2560px',
@@ -40,6 +40,9 @@ module.exports = {
       'hemautoFontTiltWarp': '"Tilt Wrap"',
     },
     extend: {},
+  },
+  variants: {
+    display:['group-hover']
   },
   plugins: [],
 }
