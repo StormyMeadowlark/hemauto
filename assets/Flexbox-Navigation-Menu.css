@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.px-33 {
+    padding-left: 33rem;
+    padding-right: 33rem;
+}
