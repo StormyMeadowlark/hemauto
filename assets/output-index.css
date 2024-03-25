@@ -816,12 +816,12 @@ video {
 
 .bg-hemautoLightGray {
   --tw-bg-opacity: 1;
-  background-color: rgb(170 178 170 / var(--tw-bg-opacity));
+  background-color: rgb(205 205 205 / var(--tw-bg-opacity));
 }
 
 .bg-hemautoMediumGray {
   --tw-bg-opacity: 1;
-  background-color: rgb(90 100 90 / var(--tw-bg-opacity));
+  background-color: rgb(127 127 127 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1005,12 +1005,12 @@ video {
 
 .text-hemautoMediumGray {
   --tw-text-opacity: 1;
-  color: rgb(90 100 90 / var(--tw-text-opacity));
+  color: rgb(127 127 127 / var(--tw-text-opacity));
 }
 
 .text-hemautoWhite {
   --tw-text-opacity: 1;
-  color: rgb(250 255 250 / var(--tw-text-opacity));
+  color: rgb(245 255 245 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1031,12 +1031,12 @@ video {
 }
 
 .shadow-hemautoMediumGray\/75 {
-  --tw-shadow-color: rgb(90 100 90 / 0.75);
+  --tw-shadow-color: rgb(127 127 127 / 0.75);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-hemautoWhite {
-  --tw-shadow-color: #fafffa;
+  --tw-shadow-color: #f5fff5;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -1058,7 +1058,7 @@ video {
 
 .hover\:text-hemautoLightGreen:hover {
   --tw-text-opacity: 1;
-  color: rgb(10 143 10 / var(--tw-text-opacity));
+  color: rgb(175 255 175 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:flex {
