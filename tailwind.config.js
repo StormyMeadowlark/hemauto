@@ -29,6 +29,10 @@ module.exports = {
       'hemautoTransparent': '#00000000',
     },
 
+    container: {
+      center: true,
+    },
+
     fontFamily:{
       'hemautoFontPlay': 'Play',
       'hemautoFontUrbanist': 'Urbanist',
