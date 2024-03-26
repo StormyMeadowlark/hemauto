@@ -13,7 +13,6 @@ module.exports = {
       'mlg': '390px',
       'msm': '360px',
     },
-
     colors: {
       'hemautoWhite': '#f5fff5',
       'hemautoLightGray': '#cdcdcd',
@@ -39,7 +38,11 @@ module.exports = {
       'hemautoFontRoadRage': '"Road Rage"',
       'hemautoFontTiltWarp': '"Tilt Warp"',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header-1': "url(./owned/top-bar-2.svg)",
+      },
+    },
   },
   variants: {
     display:['group-hover']
