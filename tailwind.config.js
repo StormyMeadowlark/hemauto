@@ -40,7 +40,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-1': "url(./owned/top-bar-1.svg)",
+        'header-1': "url(./owned/gray-header.svg)",
+        'service': "url(./owned/green-glow-laptop.svg)",
       },
     },
   },
