@@ -766,16 +766,8 @@ video {
   height: 2rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[100px\] {
-  height: 100px;
+.h-\[200px\] {
+  height: 200px;
 }
 
 .h-\[px\] {
@@ -786,12 +778,16 @@ video {
   height: 400px;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[30px\] {
+  height: 30px;
 }
 
-.h-\[50px\] {
-  height: 50px;
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-16 {
@@ -808,6 +804,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .max-w-7xl {
@@ -854,10 +862,6 @@ video {
   flex-wrap: nowrap;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
@@ -888,6 +892,10 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-16 {
@@ -962,7 +970,7 @@ video {
 }
 
 .bg-header-1 {
-  background-image: url(./owned/top-bar-2.svg);
+  background-image: url(./owned/top-bar-1.svg);
 }
 
 .from-hemautoBlack {
@@ -1003,12 +1011,12 @@ video {
   background-size: cover;
 }
 
-.bg-center {
-  background-position: center;
+.bg-bottom {
+  background-position: bottom;
 }
 
-.bg-top {
-  background-position: top;
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {

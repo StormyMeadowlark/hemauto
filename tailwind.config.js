@@ -40,7 +40,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-1': "url(./owned/top-bar-2.svg)",
+        'header-1': "url(./owned/top-bar-1.svg)",
       },
     },
   },
