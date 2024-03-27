@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./assets/*.{html,js}', './parts/*.{html,js}', './templates/*.{html,js}', './*.{html,js}'],
+  content: ['./assets/*.{html,js}', './parts/*.{html,js}', './templates/*.{html,js}', './*.{html,js}', './node_modules/flowbite/**/*.js'],
   theme: {
     screens: {
       'dxl': '2560px',
@@ -42,11 +42,14 @@ module.exports = {
       backgroundImage: {
         'header-1': "url(./owned/gray-header.svg)",
         'service': "url(./owned/green-glow-laptop.svg)",
+        'hexagon-green-sides': "url(./owned/button-1.svg)"
       },
     },
   },
   variants: {
     display:['group-hover']
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
